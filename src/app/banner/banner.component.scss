@@ -1,0 +1,127 @@
+.banner-title {
+  font-size: 60px;
+}
+.banner-description {
+  font-size: 16px;
+  margin-top: 2rem;
+  line-height: 1.8;
+  font-family: re;
+}
+
+.btn-title {
+  width: 135px;
+  height: 41px;
+}
+.btn-title1 {
+  width: 115px;
+  height: 41px;
+  margin-left: 10px;
+  border: 1px solid orangered;
+  color: #fff;
+}
+
+.carousel-indicators {
+  margin-bottom: 0.5rem !important;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .banner-info[_ngcontent-ng-c3849153143] {
+    // margin-bottom: 5rem;
+    text-align: left;
+    // width: 48%;
+  }
+  .banner-description {
+    font-size: 14px;
+    margin-top: 0rem;
+    line-height: 1.5;
+    font-family: re;
+    margin-bottom: 10px;
+  }
+
+  .btn-title {
+    width: 150px;
+    height: 35px;
+    margin-bottom: 8px;
+  }
+  .btn-title1 {
+    width: 128px;
+    height: 35px;
+    margin-left: 10px;
+    border: 1px solid orangered;
+    color: #fff;
+  }
+
+  .banner-title {
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0.5rem !important;
+  }
+
+  #carouselId {
+    height: 25rem;
+  }
+
+  .banner-img {
+    height: 25rem;
+  }
+  .button{
+    display: flex;
+  }
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.play-button {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.video-section {
+  position: relative;
+}
+
+
+.small-ico-img{
+  position: relative;
+  width: 55px;
+  height: 66px;
+}
+.ico-inspiring{
+  margin-left: 10px;
+
+  h4{
+    font-size: 24px;
+    color: orangered;
+    font-weight: 400;
+  }
+
+  h3{
+    font-size: 36px;
+    font-weight: 600;
+  }
+}
+.inspiring{
+  padding: 10px 10px 10px 87px;
+}
+
+.inspiring-para{
+  margin-top: 1rem;
+  line-height: 2;
+}
+
